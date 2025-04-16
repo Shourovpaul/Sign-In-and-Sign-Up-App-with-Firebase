@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signupbackground"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_nsign_up_to_continue"
+        android:layout_marginStart="23dp"
+        android:textSize="22sp"
+        android:layout_marginTop="140dp"
+        android:textColor="@color/deep_purple"
+        android:textStyle="italic" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:hintTextColor="@color/blue"
+        app:boxStrokeColor="@color/blue"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="32dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/userid"
+            android:background="@color/white"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/blue"
+            android:id="@+id/userId"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signInBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:textColor="@color/deep_purple"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:layout_margin="12dp"
+        android:backgroundTint="@color/yellow" />
+
+</LinearLayout>

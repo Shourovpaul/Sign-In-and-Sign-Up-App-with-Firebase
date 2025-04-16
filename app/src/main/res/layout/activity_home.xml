@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_home_page"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_marginTop="49dp"/>
+
+<TextView
+        android:id="@+id/emailInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/see_email"
+        android:textColor="@color/deep_purple"
+        android:layout_gravity="center"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_margin="12dp"
+        android:backgroundTint="@color/yellow" />
+  <TextView
+        android:id="@+id/nameInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/see_name"
+        android:textColor="@color/deep_purple"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:backgroundTint="@color/yellow" />
+
+    <TextView
+        android:id="@+id/userId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/unique_id"
+        android:textColor="@color/deep_purple"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:backgroundTint="@color/yellow" />
+</LinearLayout>
+

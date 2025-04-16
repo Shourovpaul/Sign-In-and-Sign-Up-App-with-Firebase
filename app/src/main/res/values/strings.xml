@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sign up use FireBase</string>
+    <string name="sign_up">sign_up</string>
+    <string name="welcome_nsign_up_to_continue">welcome \nsign up to continue</string>
+    <string name="email">email</string>
+    <string name="name">name</string>
+    <string name="password">password</string>
+    <string name="userid">userId</string>
+    <string name="sign_in">Sign In</string>
+    <string name="welcome_home_page">welcome Home Page</string>
+    <string name="sign_in_page">Sign In page</string>
+    <string name="see_unique_id">See unique id</string>
+    <string name="see_email">See Email</string>
+    <string name="unique_id">Unique Id</string>
+    <string name="see_name">see name</string>
+    <string name="are_you_already_signup_please_sign_in">Are you Already SignUp Please Sign In</string>
+</resources>

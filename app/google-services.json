@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "488419512147",
+    "firebase_url": "https://sign-up-and-database-default-rtdb.firebaseio.com",
+    "project_id": "sign-up-and-database",
+    "storage_bucket": "sign-up-and-database.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488419512147:android:8868a7735847b5d224dba6",
+        "android_client_info": {
+          "package_name": "com.example.signupandsigninprojectswithfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6OF5RL9a5QRHKi5CMGQ0o0J6fktfW0vA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488419512147:android:69b398816d190dc524dba6",
+        "android_client_info": {
+          "package_name": "com.example.signupsigninappwithfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6OF5RL9a5QRHKi5CMGQ0o0J6fktfW0vA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488419512147:android:4b7e686cc43c826124dba6",
+        "android_client_info": {
+          "package_name": "com.example.signupusefirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6OF5RL9a5QRHKi5CMGQ0o0J6fktfW0vA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
